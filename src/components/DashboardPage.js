@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './DashboardPage.css'
 
 const DashboardPage = () => {
   const [timeOfDay, setTimeOfDay] = useState('');
