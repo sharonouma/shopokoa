@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './RegisterBusinessPage.css';
 
 const RegisterBusinessPage = () => {
   const [formData, setFormData] = useState({
