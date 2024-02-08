@@ -11,7 +11,7 @@ const SavingsPage = () => {
   return (
     <div className='savings-page'>
       <h2>Savings</h2>
-      <div>
+      <div className='savings-form'>
         <input type='text' placeholder='Enter Savings Amount' value={savingAmount} onChange={(e) => setSavingAmount(e.target.value)} />
         <input type='text' placeholder='Enter saving period(months' value={savingPeriod} onChange={(e) => setSavingPeriod(e.target.value)}/>
         <p>Your daily pay is $10</p>
