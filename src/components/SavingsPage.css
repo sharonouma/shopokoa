@@ -1,36 +1,47 @@
 .savings-page {
-    max-width: 400px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 20px;
   }
   
   h2 {
+    text-align: center;
     margin-bottom: 20px;
-    font-size: 24px;
-    color: #333;
   }
   
   .savings-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-section {
     margin-bottom: 20px;
   }
   
-  input {
+  .input-section label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .input-field {
     width: 100%;
-    margin-bottom: 10px;
     padding: 10px;
+    font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 5px;
   }
   
-  p {
-    margin-bottom: 10px;
-    font-size: 14px;
-    color: #666;
+  .savings-summary {
+    margin-bottom: 20px;
   }
   
   .save-btn {
+    display: block;
     width: 100%;
     padding: 10px;
+    font-size: 16px;
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -41,5 +52,10 @@
   
   .save-btn:hover {
     background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin-top: 10px;
   }
   
