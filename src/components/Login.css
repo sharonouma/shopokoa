@@ -1,0 +1,12 @@
+.loginBackground {
+    background-color: white;
+    background-image: url('./assets/Logo.png');
+    background-repeat: repeat; 
+    background-position: 90px;
+    background-size: cover;
+    height: 10vh;
+    width: 10svw;
+    position: fixed;
+    left:50%;
+    transform: translate(-50%)
+}
