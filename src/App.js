@@ -1,21 +1,20 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NavBar from './components/NavBar';
-import DashboardPage from './components/DashboardPage';
-import SavingsPage from './components/SavingsPage';
-
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Logo from './components/Logo.png';
+import Signup from './components/SignUp';
+import Signup1 from './components/SignUp1';
+// import Home from './components/Home'; 
+import './App.css';
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <NavBar />
-        <Routes>
-          <Route path="/dashboard" element={<DashboardPage />} />
-          <Route path="/savings" element={<SavingsPage />} />
-        </Routes>
-      </div>
-    </Router>
+    <BrowserRouter>
+      <Routes>
+        {/* <Route path='/' element={<Home />} /> */}
+        <Route path='/signup' element={<Signup />} />
+        <Route path='/signup1' element={<Signup1 />} />
+        <Route path='/logo' element={<Logo />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
